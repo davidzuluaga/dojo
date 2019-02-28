@@ -5,7 +5,6 @@ yarn-error.log
 
 # Ignore overrides of core's phpcs.xml.dist and phpunit.xml.dist.
 phpcs.xml
-phpunit.xml
 
 # Ignore package-lock.json that is automatically created when adding
 # dependencies by users of NPMv5.

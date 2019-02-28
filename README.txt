@@ -8,6 +8,7 @@ CONTENIDO DEL ARCHIVO
  * Configuración Virtual Host
    * Linux
    * Windows
+ * Confguracion del proyecto
  
 
 BIENVENIDOS AL DOJO
@@ -43,4 +44,15 @@ CONFIGURACIÓN VIRTUAL HOST
  C:\windows\System32\drivers\etc\hosts (Windows) y se debe matricular
  el dominio dojo.dev.co apuntando al mismo equipo (127.0.0.1).
  
+CONFIGURACIÓN DEL PROYECTO
+--------------------------
+
+ Para poder llevar a cabo este dojo es necesario que tengamos configurado el
+ proyecto, para esto debemos configurar el drupal y para esto debemos hacer lo
+ siguiente:
+ 
+ * Ejecutar el comando composer install
+ * Actualizar el phpUnit con el siguiente comando 
+   composer run-script drupal-phpunit-upgrade
+
 ------------------------------------------------------------------------------

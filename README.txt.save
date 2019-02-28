@@ -1,0 +1,46 @@
+
+CONTENIDO DEL ARCHIVO
+---------------------
+
+ * Bienvenido al Dojo
+ * A cerca del Dojo
+ * Prerequisitos
+ * Configuración Virtual Host
+   * Linux
+   * Windows
+ 
+
+BIENVENIDOS AL DOJO
+-------------------
+
+A CERCA DEL DOJO
+----------------
+
+PREREQUISITOS
+-------------
+
+ * Tener instalado un servidor web, php con soporte para pdo-sqlite,
+ * Tener instalado un IDE (El de supreferencia)
+ * Tener instalado phpUnit
+ * Copiar este repositorio a la ruta /dojo en el directorio publico de su 
+   servidor
+
+CONFIGURACIÓN VIRTUAL HOST
+--------------------------
+
+ * Linux
+   ----- 
+   En la carpeta configs que se encuentra en un archivo que tiene parametrizado 
+   el virtual host, este archivo se debe copiar en la siguiente  ruta 
+   /etc/apache2/sites-availables, y se debe ejecutar el comando a2ensite para 
+   su habilitación. Hecho esto, es necesario recargar el servidor para que 
+   tome los cambios
+
+   Para indicarle al equipo que la dirección url dojo.dev.co esta en el mismo
+   equipo es necesario editar el archivo /etc/hosts e indicarle la dirección
+   IP del equipo para que este pueda ser resuelto.
+
+
+
+
+------------------------------------------------------------------------------

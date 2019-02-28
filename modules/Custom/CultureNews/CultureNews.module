@@ -1,0 +1,27 @@
+<?php
+/**
+ * @file
+ * Contains CultureNews.module
+ */
+use Drupal\Core\Routing\RouteMatchInterface;
+ 
+/**
+ * Implements hook_help().
+ */
+function CultureNews_help($route_name, RouteMatchInterface $route_match)
+{
+    switch ($route_name) {
+        // Main module help for the tigoune_asesor module.
+        case 'help.page.CultureNews':
+            $output = '';
+            $output .= '<h3>' . t('About') . '</h3>';
+            $output .= '<p>' . t('My Awesome Module') . '</p>';
+            return $output;
+        
+        default:
+    }
+}
+
+function CultureNews_theme($existing, $type, $theme, $path)
+{
+}
