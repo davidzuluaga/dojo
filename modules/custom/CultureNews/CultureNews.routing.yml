@@ -1,0 +1,7 @@
+CultureNews.create:
+  path: '/CultureNews/create'
+  defaults:
+    _form: '\Drupal\CultureNews\Form\createCultureArticleForm'
+    _title: 'CultureNews - Crear Articulo'
+  requirements:
+    _permission: 'content access'

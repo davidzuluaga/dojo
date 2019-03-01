@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * implements hook_schema
+ */
+function CultureNews_schema() {
+  $schema = [];
+
+  $schema['CultureNews_Articles'] = [
+    'description' => '',
+    'fields' => [
+      'id' => ['type' => 'serial', 'not null' => TRUE],
+      'title' => [
+        'description' => t(''),
+        'type' => 'text',
+        'size' => 'medium',
+        'not null' => FALSE],
+      'description' => [
+        'type' => 'text',
+        'length' => 5000,
+        'not null' => FALSE],
+      'author' => [
+        'type' => 'text',
+        'length' => 5000,
+        'not null' => FALSE]],
+    'primary key' => ['id']];
+
+  return $schema;
+}

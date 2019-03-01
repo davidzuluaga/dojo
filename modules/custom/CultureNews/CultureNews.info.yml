@@ -1,0 +1,6 @@
+name: 'Culture News'
+type: module
+description: 'Module for create articles about DevOps Culture'
+version: 8.x-0.1
+core: 8.x
+package: Dojo
